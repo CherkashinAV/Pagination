@@ -1,0 +1,29 @@
+.App {
+  height: 100vh;
+  font-family: sans-serif;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+.items {
+  width: 65%;
+  height: auto;
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.items .card {
+  flex: 0 0 calc(20% - 20px);
+}
+
+.pagination {
+  position: absolute;
+  bottom: 20px;
+  margin: auto;
+  left: 0;
+  right: 0;
+}
